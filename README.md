@@ -1,6 +1,7 @@
 # HealthHub
 -BUILD WITH- 
-<img src = "**https://github.com/batuakdogan/HealthHub/assets/77547523/54f31603-d09a-4a3e-8361-8da00d6f05db**"
+<img src = "https://github.com/batuakdogan/HealthHub/assets/77547523/f12da536-9375-44ce-8d00-2a966cef0a0a"
+
   width = "30">
 
 
