@@ -18,17 +18,7 @@ class MainViewController: UIViewController {
     }
     
     
-    @IBAction func logOut(_ sender: Any) {
-        
-        do {
-            try Auth.auth().signOut()
-            self.performSegue(withIdentifier: "toSign", sender: nil)
-        } catch {
-            print("error")
-        }
-       
-        
-    }
+    
     
 
     

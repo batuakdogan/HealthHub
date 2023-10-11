@@ -13,15 +13,8 @@ class SignUpViewController: UIViewController {
     
     
     @IBOutlet weak var emailTextSignUp: UITextField!
-    
-    
     @IBOutlet weak var passwordTextSignUp: UITextField!
-    
-    
-    
-    
-    
-    
+      
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,8 +32,6 @@ class SignUpViewController: UIViewController {
                     
                     self.makeAlert(titleInput: "Hata", messageInput: error?.localizedDescription ?? "Hata")
                     
-                    
-                    
                 } else {
                     
                     self.performSegue(withIdentifier: "toSignIn", sender: nil)
@@ -48,11 +39,7 @@ class SignUpViewController: UIViewController {
                 
                 
             } 
-            
-           
-            
-            
-            
+                       
         }
         
         else {
@@ -77,5 +64,4 @@ class SignUpViewController: UIViewController {
         
     }
     
-
 }

@@ -35,6 +35,12 @@ class BMIViewController: UIViewController {
         
     }
     
+    
+    @IBAction func accountButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "toAccountSegue", sender: nil)
+    }
+    
+    
 
     
     @objc func calculateButtonTapped() {

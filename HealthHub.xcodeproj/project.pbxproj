@@ -27,6 +27,7 @@
 		D19193F72AD6EFA100D226F9 /* BMIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */; };
 		D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F82AD6F31D00D226F9 /* BMIViewController.swift */; };
 		D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD07A32AD6CBFC0026746A /* MainViewController.swift */; };
+		D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4A5102AD727F700841260 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewModel.swift; sourceTree = "<group>"; };
 		D19193F82AD6F31D00D226F9 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		D1AD07A32AD6CBFC0026746A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D1F4A5102AD727F700841260 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				D186F5632AD5C90F00939E13 /* SignUpViewController.swift */,
 				D1AD07A32AD6CBFC0026746A /* MainViewController.swift */,
 				D19193F82AD6F31D00D226F9 /* BMIViewController.swift */,
+				D1F4A5102AD727F700841260 /* AccountViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */,
 				D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */,
 				D19193F52AD6EF6D00D226F9 /* BMIModel.swift in Sources */,
+				D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */,
 				D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */,
 				D14C9C192AD5B2E10099782C /* HealthHub.xcdatamodeld in Sources */,
 				D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */,

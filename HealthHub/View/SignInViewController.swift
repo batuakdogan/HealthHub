@@ -14,16 +14,8 @@ class SignInViewController: UIViewController {
     
     
     @IBOutlet weak var emailtextSignIn: UITextField!
-    
-    
-    
-    
-    
+
     @IBOutlet weak var passwordTextSignIn: UITextField!
-    
-    
-    
-    
     
 
     override func viewDidLoad() {
@@ -41,7 +33,7 @@ class SignInViewController: UIViewController {
             Auth.auth().signIn(withEmail: emailtextSignIn.text!, password: passwordTextSignIn.text!) { authdata, error in
                 if error != nil {
                     
-                    self.makeAlert(titleInput: "Hata", messageInput: "Email Bulunamadı")
+                    self.makeAlert(titleInput: "Hata", messageInput: "Email / Şifre Bulunamadı")
                     
                 } else {
                     self.performSegue(withIdentifier: "toMainSegue", sender: nil)
@@ -58,12 +50,9 @@ class SignInViewController: UIViewController {
         
     }
     
-    
-    
     @IBAction func signUpButton(_ sender: Any) {
         
         performSegue(withIdentifier: "signUpSegue", sender: nil)
-        
         
     }
     
