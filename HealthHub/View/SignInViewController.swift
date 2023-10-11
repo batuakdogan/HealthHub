@@ -16,8 +16,10 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var emailtextSignIn: UITextField!
     
     
-    @IBOutlet weak var passwordTextSignIn: UITextField!
     
+    
+    
+    @IBOutlet weak var passwordTextSignIn: UITextField!
     
     
     
