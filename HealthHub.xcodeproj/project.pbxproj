@@ -23,6 +23,7 @@
 		D14C9C4A2AD5B3FC0099782C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C492AD5B3FC0099782C /* FirebaseFirestore */; };
 		D14C9C4C2AD5B3FC0099782C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C4B2AD5B3FC0099782C /* FirebaseStorage */; };
 		D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D186F5632AD5C90F00939E13 /* SignUpViewController.swift */; };
+		D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD07A32AD6CBFC0026746A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D14C9C352AD5B2E20099782C /* HealthHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D14C9C422AD5B34A0099782C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D186F5632AD5C90F00939E13 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D1AD07A32AD6CBFC0026746A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				D14C9C122AD5B2E10099782C /* SignInViewController.swift */,
 				D186F5632AD5C90F00939E13 /* SignUpViewController.swift */,
+				D1AD07A32AD6CBFC0026746A /* MainViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
 				D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */,
 				D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */,
+				D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */,
 				D14C9C192AD5B2E10099782C /* HealthHub.xcdatamodeld in Sources */,
 				D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */,
 			);

@@ -42,7 +42,7 @@ class SignInViewController: UIViewController {
                     self.makeAlert(titleInput: "Hata", messageInput: "Email Bulunamadı")
                     
                 } else {
-                    print("ll")
+                    self.performSegue(withIdentifier: "toMainSegue", sender: nil)
                     
                 }
             }
