@@ -13,8 +13,10 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
 
-        // Do any additional setup after loading the view.
+        
     }
     
     
@@ -25,5 +27,22 @@ class MainViewController: UIViewController {
     @IBAction func goToIndexButton(_ sender: Any) {
         performSegue(withIdentifier: "toIndexSegue", sender: nil)
     }
+    
+    
+    @IBAction func goToGymButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: "goToGymSegue", sender: nil)
+    }
+    
+    
+    
+    @IBAction func goToABoutButton(_ sender: Any) {
+        
+        
+        performSegue(withIdentifier: "toAbout", sender: nil)
+        
+        
+    }
+    
     
 }

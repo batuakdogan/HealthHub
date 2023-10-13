@@ -21,6 +21,7 @@ class AccountViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(false, animated: false)
         if let user = Auth.auth().currentUser {
             let userEmail = user.email
             emailLabel.text = userEmail

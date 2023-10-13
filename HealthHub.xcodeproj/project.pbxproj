@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11410252AD957C800A970F2 /* GymViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410242AD957C800A970F2 /* GymViewController.swift */; };
+		D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410262AD9583B00A970F2 /* ListViewController.swift */; };
 		D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C0E2AD5B2E10099782C /* AppDelegate.swift */; };
 		D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C102AD5B2E10099782C /* SceneDelegate.swift */; };
 		D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C122AD5B2E10099782C /* SignInViewController.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D11410242AD957C800A970F2 /* GymViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymViewController.swift; sourceTree = "<group>"; };
+		D11410262AD9583B00A970F2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D14C9C0B2AD5B2E10099782C /* HealthHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14C9C0E2AD5B2E10099782C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D14C9C102AD5B2E10099782C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				D1AD07A32AD6CBFC0026746A /* MainViewController.swift */,
 				D19193F82AD6F31D00D226F9 /* BMIViewController.swift */,
 				D1F4A5102AD727F700841260 /* AccountViewController.swift */,
+				D11410242AD957C800A970F2 /* GymViewController.swift */,
+				D11410262AD9583B00A970F2 /* ListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,8 +334,10 @@
 			files = (
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
 				D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */,
+				D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */,
 				D19193F72AD6EFA100D226F9 /* BMIViewModel.swift in Sources */,
 				D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */,
+				D11410252AD957C800A970F2 /* GymViewController.swift in Sources */,
 				D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */,
 				D19193F52AD6EF6D00D226F9 /* BMIModel.swift in Sources */,
 				D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */,

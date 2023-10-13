@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseFirestore
 
 class BMIViewController: UIViewController {
     
@@ -27,11 +29,12 @@ class BMIViewController: UIViewController {
     
     var viewModel = BMIViewModel()
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(false, animated: false)
         calculateButton.addTarget(self, action: #selector(calculateButtonTapped), for: .touchUpInside)
-
+        
         
     }
     
@@ -41,22 +44,37 @@ class BMIViewController: UIViewController {
     }
     
     
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @objc func calculateButtonTapped() {
-            if let height = Double(heightTextField.text ?? ""), let weight = Double(weightTexxtfield.text ?? "") {
-                viewModel.calculateBMI(height: height, weight: weight)
-                
-                
-                
-                if let bmi = viewModel.bmi {
-                    resultLabel.text = "BMI: \(String(format: "%.2f", bmi.index))"
-                }
-            } else {
-                resultLabel.text = "Geçersiz giriş!"
+        if let height = Double(heightTextField.text ?? ""), let weight = Double(weightTexxtfield.text ?? "") {
+            viewModel.calculateBMI(height: height, weight: weight)
+            
+            
+            
+            if let bmi = viewModel.bmi {
+                resultLabel.text = "BMI: \(String(format: "%.2f", bmi.index))"
             }
+        } else {
+            resultLabel.text = "Geçersiz giriş!"
         }
-    }
+        
+        
+                }
+            }
+        
    
 
 

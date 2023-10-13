@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Firebase
+import FirebaseFirestore
 
 class BMIViewModel {
     var bmi: BMI?
@@ -14,4 +16,6 @@ class BMIViewModel {
         let newBMI = BMI(height: height, weight: weight)
         bmi = newBMI
     }
+    
+    
 }
