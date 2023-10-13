@@ -28,13 +28,13 @@
 
 &nbsp;
 
+<img width="300" alt="Ekran Resmi 2023-10-11 18 41 16" src="https://github.com/batuakdogan/HealthHub/assets/77547523/614fd3f1-2adb-4c08-be1b-aee03474b6b2">
 
 
-<img width="300" alt="Ekran Resmi 2023-10-13 15 25 09" src="https://github.com/kodlamalab/asd/assets/147631328/6a7ecfe1-3ee6-4d1d-bcbd-8ff92fea6163">
+<img width="300" alt="Ekran Resmi 2023-10-13 14 36 48" src="https://github.com/batuakdogan/HealthHub/assets/77547523/fcbf4fd2-3ecb-469f-850d-340b2813e507">
 
 
 
-<img width="300" alt="Ekran Resmi 2023-10-13 14 36 48" src="https://github.com/kodlamalab/asd/assets/147631328/2276a024-86e6-477d-bb6a-4602100b86e1"> 
 
 
 
@@ -44,7 +44,7 @@
 &nbsp;
 
 
-<img width="300" alt="Ekran Resmi 2023-10-13 14 25 35" src="https://github.com/kodlamalab/asd/assets/147631328/5c74f1ed-5649-4b66-b951-6be61283d9ca">
+<img width="300" alt="Ekran Resmi 2023-10-13 14 25 35" src="https://github.com/batuakdogan/HealthHub/assets/77547523/10d976e6-2647-4ec5-8619-2e89024a617b">
 
 
 
