@@ -27,8 +27,11 @@
 
 
 &nbsp;
+<img width="300" alt="Ekran Resmi 2023-10-11 18 41 16" src="https://github.com/batuakdogan/HealthHub/assets/77547523/44a4aec7-f693-4e8f-8ac0-03b8cce8dfae">
 
-<img width="300" alt="Ekran Resmi 2023-10-11 18 41 16" src="https://github.com/batuakdogan/HealthHub/assets/77547523/614fd3f1-2adb-4c08-be1b-aee03474b6b2">
+
+
+
 
 
 <img width="300" alt="Ekran Resmi 2023-10-13 14 36 48" src="https://github.com/batuakdogan/HealthHub/assets/77547523/fcbf4fd2-3ecb-469f-850d-340b2813e507">
