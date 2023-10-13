@@ -21,7 +21,11 @@ class AccountViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
         self.navigationItem.setHidesBackButton(false, animated: false)
+        
+        
+        //user email
         if let user = Auth.auth().currentUser {
             let userEmail = user.email
             emailLabel.text = userEmail
@@ -48,10 +52,8 @@ class AccountViewController: UIViewController {
     @IBAction func resetEmail(_ sender: Any) {
         Auth.auth().sendPasswordReset(withEmail: Auth.auth().currentUser?.email ?? "email") { (error) in
             if let error = error {
-                // Şifre sıfırlama hatası
                 print("Şifre sıfırlama hatası: \(error.localizedDescription)")
             } else {
-                // Şifre sıfırlama e-postası gönderildi
                 print("Şifre sıfırlama e-postası gönderildi.")
             }
         }

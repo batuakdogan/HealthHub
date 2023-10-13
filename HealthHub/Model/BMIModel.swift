@@ -8,6 +8,7 @@
 import Foundation
 
 struct BMI {
+    
     var height: Double
     var weight: Double
     var index: Double {

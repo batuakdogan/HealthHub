@@ -65,7 +65,7 @@ class BMIViewController: UIViewController {
             
             
             if let bmi = viewModel.bmi {
-                resultLabel.text = "BMI: \(String(format: "%.2f", bmi.index))"
+                resultLabel.text = "BMI: \(String(format: "%.2f", bmi.index))" // for double number
             }
         } else {
             resultLabel.text = "Geçersiz giriş!"

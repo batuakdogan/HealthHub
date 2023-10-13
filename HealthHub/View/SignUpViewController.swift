@@ -21,7 +21,7 @@ class SignUpViewController: UIViewController {
 
     }
     
-    
+    //Sign up Actions
     @IBAction func addUserButton(_ sender: Any) {
         
         if emailTextSignUp.text != "" && passwordTextSignUp.text != "" {

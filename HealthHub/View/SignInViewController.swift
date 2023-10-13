@@ -23,7 +23,7 @@ class SignInViewController: UIViewController {
     }
     
     
-    
+    // Sign in actions
     @IBAction func signInButton(_ sender: Any) {
         
         
@@ -49,6 +49,7 @@ class SignInViewController: UIViewController {
         }
         
     }
+    
     
     @IBAction func signUpButton(_ sender: Any) {
         
