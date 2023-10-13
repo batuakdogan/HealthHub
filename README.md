@@ -53,8 +53,8 @@
 
 
 
+<img width="300" alt="Ekran Resmi 2023-10-11 22 26 38" src="https://github.com/batuakdogan/HealthHub/assets/77547523/d1e20a0d-fb7f-4e56-b7d5-889072dde432">
 
-<img width="300" alt="Ekran Resmi 2023-10-13 14 48 31" src="https://github.com/kodlamalab/asd/assets/147631328/e244f6f5-baec-4efd-bba2-4294e75d1087">
 
 
 
