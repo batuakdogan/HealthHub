@@ -45,4 +45,13 @@ class MainViewController: UIViewController {
     }
     
     
+    
+    @IBAction func goTimer(_ sender: Any) {
+        performSegue(withIdentifier: "toTimer", sender: nil)
+    }
+    
+    
+    
+    
+    
 }

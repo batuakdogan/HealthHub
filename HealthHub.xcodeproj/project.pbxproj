@@ -25,6 +25,8 @@
 		D14C9C4A2AD5B3FC0099782C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C492AD5B3FC0099782C /* FirebaseFirestore */; };
 		D14C9C4C2AD5B3FC0099782C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C4B2AD5B3FC0099782C /* FirebaseStorage */; };
 		D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D186F5632AD5C90F00939E13 /* SignUpViewController.swift */; };
+		D18B401A2AEC42730089766E /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18B40192AEC42730089766E /* TimerViewModel.swift */; };
+		D18B401C2AEC42AD0089766E /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18B401B2AEC42AD0089766E /* TimerViewController.swift */; };
 		D19193F52AD6EF6D00D226F9 /* BMIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F42AD6EF6D00D226F9 /* BMIModel.swift */; };
 		D19193F72AD6EFA100D226F9 /* BMIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */; };
 		D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F82AD6F31D00D226F9 /* BMIViewController.swift */; };
@@ -69,6 +71,8 @@
 		D14C9C352AD5B2E20099782C /* HealthHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D14C9C422AD5B34A0099782C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D186F5632AD5C90F00939E13 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D18B40192AEC42730089766E /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		D18B401B2AEC42AD0089766E /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		D19193F42AD6EF6D00D226F9 /* BMIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIModel.swift; sourceTree = "<group>"; };
 		D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewModel.swift; sourceTree = "<group>"; };
 		D19193F82AD6F31D00D226F9 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +183,7 @@
 				D1F4A5102AD727F700841260 /* AccountViewController.swift */,
 				D11410242AD957C800A970F2 /* GymViewController.swift */,
 				D11410262AD9583B00A970F2 /* ListViewController.swift */,
+				D18B401B2AEC42AD0089766E /* TimerViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */,
+				D18B40192AEC42730089766E /* TimerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18B401A2AEC42730089766E /* TimerViewModel.swift in Sources */,
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
 				D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */,
 				D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */,
@@ -341,6 +348,7 @@
 				D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */,
 				D19193F52AD6EF6D00D226F9 /* BMIModel.swift in Sources */,
 				D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */,
+				D18B401C2AEC42AD0089766E /* TimerViewController.swift in Sources */,
 				D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */,
 				D14C9C192AD5B2E10099782C /* HealthHub.xcdatamodeld in Sources */,
 				D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */,

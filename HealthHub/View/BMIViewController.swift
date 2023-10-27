@@ -48,6 +48,9 @@ class BMIViewController: UIViewController {
     
     
     
+    @IBAction func caioriesButton(_ sender: Any) {
+        performSegue(withIdentifier: "caloriesSegue", sender: nil)
+    }
     
     
     

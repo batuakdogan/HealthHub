@@ -8,25 +8,41 @@
 import UIKit
 import CoreData
 
+
+
+
+
 class ListViewController: UIViewController , UITableViewDelegate, UITableViewDataSource{
 
     
+
+    
     @IBOutlet weak var tableView: UITableView!
+    
+
+    
     
     var titleArray = [String]()
         var idArray = [UUID]()
         var chosenTitle = ""
         var chosenTitleId : UUID?
-    
-    
+        
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+
+        
                 
                 navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
 
+        
+        
+        
+        navigationController?.navigationBar.topItem?.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.trash, target: self, action: #selector(trashButtonClicked))
                 tableView.delegate = self
                 tableView.dataSource = self
                 
@@ -35,6 +51,7 @@ class ListViewController: UIViewController , UITableViewDelegate, UITableViewDat
 
 
     }
+    
     
 
     override func viewWillAppear(_ animated: Bool) {
@@ -100,6 +117,23 @@ class ListViewController: UIViewController , UITableViewDelegate, UITableViewDat
             chosenTitleId = idArray[indexPath.row]
             performSegue(withIdentifier: "toViewController", sender: nil)
         }
+    
+        
+    
+            
+
+    
+    
+    
+    
+    @objc func trashButtonClicked() {
+        
+       
+        
+    }
+        
+
+    
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
