@@ -28,7 +28,6 @@ For Questions : batudev21@gmail.com
 
 
 
-<img width="300" alt="Ekran Resmi 2023-10-29 14 15 17" src="https://github.com/batuakdogan/HealthHub/assets/77547523/5fb234c5-01f3-433d-991a-de3ed30dfb28">
 
 
 &nbsp;
