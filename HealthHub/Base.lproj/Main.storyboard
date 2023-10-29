@@ -15,7 +15,7 @@
             <objects>
                 <viewController storyboardIdentifier="x" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="SignInViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CVc-RR-o5F">
@@ -128,20 +128,16 @@
             <objects>
                 <viewController storyboardIdentifier="mainn" modalPresentationStyle="fullScreen" id="6ym-gH-kpJ" customClass="MainViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UGP-FJ-IXJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="exercise" translatesAutoresizingMaskIntoConstraints="NO" id="Mex-If-Z4i">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise" translatesAutoresizingMaskIntoConstraints="NO" id="Mex-If-Z4i">
                                 <rect key="frame" x="85" y="90" width="222" height="151"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="151" id="qFa-yB-JnH"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtY-zX-rTU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtY-zX-rTU">
                                 <rect key="frame" x="110" y="351" width="263" height="51"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="DTr-9N-Axh"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="BOY KILO INDEKSI" cornerStyle="medium">
@@ -155,11 +151,9 @@
                                     <action selector="goToIndexButton:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="qzZ-sa-bbn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X84-o7-cA2">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X84-o7-cA2">
                                 <rect key="frame" x="110" y="476" width="260" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="XPc-Rj-8EP"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="KAYITLI SPOR SALONLARIM" cornerStyle="medium">
@@ -173,8 +167,9 @@
                                     <segue destination="8mQ-jt-niS" kind="show" identifier="goToGymSegue" id="0f6-tc-3CQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spe-w0-6j4">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spe-w0-6j4">
                                 <rect key="frame" x="110" y="593" width="260" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="SAYAÇ" cornerStyle="medium">
@@ -188,8 +183,9 @@
                                     <action selector="goToGymButton:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="1Fg-jS-gQd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-n7-dfJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-n7-dfJ">
                                 <rect key="frame" x="110" y="713" width="262" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="NEDİR?" cornerStyle="medium">
@@ -204,60 +200,25 @@
                                     <segue destination="djZ-hu-b9m" kind="show" identifier="toAbout" id="8ok-57-E2C"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="marker" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-W7-CPX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marker" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-W7-CPX">
                                 <rect key="frame" x="16" y="476" width="61" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="urF-90-5yp"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="about 1" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-G7-zkv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about 1" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-G7-zkv">
                                 <rect key="frame" x="23" y="713" width="68" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stopwatch" translatesAutoresizingMaskIntoConstraints="NO" id="fXa-Mg-2br">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stopwatch" translatesAutoresizingMaskIntoConstraints="NO" id="fXa-Mg-2br">
                                 <rect key="frame" x="20" y="602" width="53" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="53" id="Bwq-q8-tAc"/>
-                                    <constraint firstAttribute="height" constant="45" id="uoC-bN-LcA"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="calculator 1" translatesAutoresizingMaskIntoConstraints="NO" id="atu-bE-OLY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calculator 1" translatesAutoresizingMaskIntoConstraints="NO" id="atu-bE-OLY">
                                 <rect key="frame" x="20" y="351" width="61" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TbK-EV-F3l"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="spe-w0-6j4" firstAttribute="leading" secondItem="8rh-n7-dfJ" secondAttribute="leading" id="5OO-qy-iJq"/>
-                            <constraint firstItem="8rh-n7-dfJ" firstAttribute="leading" secondItem="Nei-G7-zkv" secondAttribute="trailing" constant="19" id="80s-Tc-b1R"/>
-                            <constraint firstItem="NtY-zX-rTU" firstAttribute="centerX" secondItem="8rh-n7-dfJ" secondAttribute="centerX" id="88h-tg-CHg"/>
-                            <constraint firstItem="atu-bE-OLY" firstAttribute="top" secondItem="NtY-zX-rTU" secondAttribute="top" id="FK9-UV-Qt2"/>
-                            <constraint firstItem="atu-bE-OLY" firstAttribute="leading" secondItem="TbK-EV-F3l" secondAttribute="leading" constant="20" id="JTc-6v-8yj"/>
-                            <constraint firstItem="X84-o7-cA2" firstAttribute="trailing" secondItem="spe-w0-6j4" secondAttribute="trailing" id="JfD-SB-LH1"/>
-                            <constraint firstItem="Nei-G7-zkv" firstAttribute="top" secondItem="fXa-Mg-2br" secondAttribute="bottom" constant="66" id="LPh-ff-yVn"/>
-                            <constraint firstItem="Mex-If-Z4i" firstAttribute="top" secondItem="TbK-EV-F3l" secondAttribute="top" constant="34" id="MNY-xJ-kyK"/>
-                            <constraint firstItem="fXa-Mg-2br" firstAttribute="bottom" secondItem="spe-w0-6j4" secondAttribute="bottom" id="MQO-aP-FBK"/>
-                            <constraint firstItem="atu-bE-OLY" firstAttribute="centerY" secondItem="NtY-zX-rTU" secondAttribute="centerY" id="OvQ-IB-wgL"/>
-                            <constraint firstItem="atu-bE-OLY" firstAttribute="leading" secondItem="fXa-Mg-2br" secondAttribute="leading" id="P02-bG-me4"/>
-                            <constraint firstItem="NtY-zX-rTU" firstAttribute="leading" secondItem="atu-bE-OLY" secondAttribute="trailing" constant="29" id="Rto-MN-kyw"/>
-                            <constraint firstItem="TbK-EV-F3l" firstAttribute="bottom" secondItem="Nei-G7-zkv" secondAttribute="bottom" constant="69" id="S6D-jn-Jid"/>
-                            <constraint firstItem="fXa-Mg-2br" firstAttribute="top" secondItem="F5s-W7-CPX" secondAttribute="bottom" constant="77" id="U0U-UR-HAL"/>
-                            <constraint firstItem="X84-o7-cA2" firstAttribute="leading" secondItem="F5s-W7-CPX" secondAttribute="trailing" constant="33" id="Xke-AK-PKy"/>
-                            <constraint firstItem="Nei-G7-zkv" firstAttribute="leading" secondItem="TbK-EV-F3l" secondAttribute="leading" constant="23" id="ZFb-FB-VfR"/>
-                            <constraint firstItem="TbK-EV-F3l" firstAttribute="trailing" secondItem="NtY-zX-rTU" secondAttribute="trailing" constant="20" id="cb3-YM-ZQp"/>
-                            <constraint firstItem="F5s-W7-CPX" firstAttribute="centerX" secondItem="fXa-Mg-2br" secondAttribute="centerX" id="dKL-fj-pX7"/>
-                            <constraint firstItem="F5s-W7-CPX" firstAttribute="leading" secondItem="UGP-FJ-IXJ" secondAttribute="leadingMargin" id="dQQ-a0-Z3k"/>
-                            <constraint firstItem="X84-o7-cA2" firstAttribute="leading" secondItem="spe-w0-6j4" secondAttribute="leading" id="eww-lj-C0k"/>
-                            <constraint firstItem="NtY-zX-rTU" firstAttribute="leading" secondItem="X84-o7-cA2" secondAttribute="leading" id="gjH-LQ-Hub"/>
-                            <constraint firstItem="Mex-If-Z4i" firstAttribute="centerX" secondItem="UGP-FJ-IXJ" secondAttribute="centerX" id="hRI-vm-Yc4"/>
-                            <constraint firstItem="TbK-EV-F3l" firstAttribute="bottom" secondItem="8rh-n7-dfJ" secondAttribute="bottom" constant="78" id="jql-45-tgy"/>
-                            <constraint firstItem="F5s-W7-CPX" firstAttribute="top" secondItem="X84-o7-cA2" secondAttribute="top" id="k3A-YR-rF6"/>
-                            <constraint firstItem="spe-w0-6j4" firstAttribute="top" secondItem="X84-o7-cA2" secondAttribute="bottom" constant="63" id="rnj-mi-LUe"/>
-                            <constraint firstItem="atu-bE-OLY" firstAttribute="top" secondItem="TbK-EV-F3l" secondAttribute="top" constant="295" id="s9U-q4-IOW"/>
-                            <constraint firstItem="Mex-If-Z4i" firstAttribute="leading" secondItem="TbK-EV-F3l" secondAttribute="leading" constant="85" id="tWo-S6-mzg"/>
-                            <constraint firstItem="Nei-G7-zkv" firstAttribute="top" secondItem="8rh-n7-dfJ" secondAttribute="top" id="wrz-dt-UfM"/>
-                            <constraint firstItem="TbK-EV-F3l" firstAttribute="trailing" secondItem="X84-o7-cA2" secondAttribute="trailing" constant="23" id="xT0-oO-g1Y"/>
-                            <constraint firstItem="F5s-W7-CPX" firstAttribute="top" secondItem="atu-bE-OLY" secondAttribute="bottom" constant="73" id="xyg-89-MFh"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6XG-9y-lpH"/>
                     <connections>
@@ -274,7 +235,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ApU-06-hm5" customClass="TimerViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kVK-3k-Xn9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8s-ni-zLO">
@@ -518,55 +479,38 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Boy metre (örn: 1.74)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-bz-dPS">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Boy metre (örn: 1.74)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-bz-dPS">
                                 <rect key="frame" x="85" y="436" width="208" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kilo kg (örn: 80)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gPE-Gf-UEp">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kilo kg (örn: 80)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gPE-Gf-UEp">
                                 <rect key="frame" x="92" y="333" width="208" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIq-Tw-WoS">
-                                <rect key="frame" x="92" y="508" width="118" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIq-Tw-WoS">
+                                <rect key="frame" x="31" y="505" width="118" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="HESAPLA"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SONUÇ:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qA-5Z-veF">
-                                <rect key="frame" x="85" y="592" width="208" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="fGG-WF-oWa"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SONUÇ:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qA-5Z-veF">
+                                <rect key="frame" x="31" y="619" width="208" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.32759654298850976" green="0.72580757636253512" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.75440945130000003" green="0.56912377380000001" blue="0.84258943799999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculator" translatesAutoresizingMaskIntoConstraints="NO" id="jdO-SD-ZgW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calculator" translatesAutoresizingMaskIntoConstraints="NO" id="jdO-SD-ZgW">
                                 <rect key="frame" x="119" y="135" width="155" height="116"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="116" id="cLy-Pd-MEC"/>
-                                    <constraint firstAttribute="width" constant="155" id="gRp-VK-vIA"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5a-JK-vtb">
-                                <rect key="frame" x="16" y="783" width="123" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="123" id="Ivy-ab-c38"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="İNDEKSLER" cornerStyle="capsule" titleAlignment="leading">
-                                    <backgroundConfiguration key="background"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="caioriesButton:" destination="wre-yQ-RL6" eventType="touchUpInside" id="201-TB-yAC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSa-vb-GQq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSa-vb-GQq">
                                 <rect key="frame" x="254" y="783" width="123" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="123" id="JPw-ZQ-X5B"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="HESABIM" cornerStyle="capsule" titleAlignment="leading">
                                     <backgroundConfiguration key="background"/>
@@ -575,47 +519,42 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                                     <action selector="accountButton:" destination="wre-yQ-RL6" eventType="touchUpInside" id="7Vq-Uq-s3o"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="height" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-Ef-mw7">
-                                <rect key="frame" x="31" y="381" width="46" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="5xC-Us-TkZ"/>
-                                    <constraint firstAttribute="height" constant="42" id="iXS-OB-QgW"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="weight-loss" translatesAutoresizingMaskIntoConstraints="NO" id="Bny-9O-IZ6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weight-loss" translatesAutoresizingMaskIntoConstraints="NO" id="Bny-9O-IZ6">
                                 <rect key="frame" x="31" y="329" width="46" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="VRU-1U-Uiz"/>
-                                    <constraint firstAttribute="width" constant="46" id="r9x-8K-8IA"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="height" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-Ef-mw7">
+                                <rect key="frame" x="31" y="428" width="46" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RfX-KV-rNg">
+                                <rect key="frame" x="16" y="783" width="123" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="İNDEKSLER" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="savedBMIButton:" destination="wre-yQ-RL6" eventType="touchUpInside" id="tsl-sG-EPk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fne-ed-lPG">
+                                <rect key="frame" x="254" y="504" width="118" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.85354918030000004" green="1" blue="0.69590708609999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="KAYDET">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveButton:" destination="wre-yQ-RL6" eventType="touchUpInside" id="5q5-TI-wpL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dld-lg-Hjw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="MlS-bz-dPS" firstAttribute="leading" secondItem="gPE-Gf-UEp" secondAttribute="leading" id="0vi-9q-Yu9"/>
-                            <constraint firstItem="s5a-JK-vtb" firstAttribute="baseline" secondItem="RSa-vb-GQq" secondAttribute="baseline" id="3yL-Ot-5VN"/>
-                            <constraint firstItem="MlS-bz-dPS" firstAttribute="centerX" secondItem="krS-Sd-Vyi" secondAttribute="centerX" id="7Yt-aF-o9a"/>
-                            <constraint firstItem="1qA-5Z-veF" firstAttribute="top" secondItem="PIq-Tw-WoS" secondAttribute="bottom" constant="56" id="9ys-Om-kiv"/>
-                            <constraint firstItem="Mhb-Ef-mw7" firstAttribute="top" secondItem="Bny-9O-IZ6" secondAttribute="bottom" constant="58" id="Bjo-Xv-Snc"/>
-                            <constraint firstItem="1qA-5Z-veF" firstAttribute="leading" secondItem="PIq-Tw-WoS" secondAttribute="leading" id="FHj-b6-2HH"/>
-                            <constraint firstItem="gPE-Gf-UEp" firstAttribute="trailing" secondItem="1qA-5Z-veF" secondAttribute="trailing" id="Fpo-sA-fu7"/>
-                            <constraint firstItem="jdO-SD-ZgW" firstAttribute="centerX" secondItem="MlS-bz-dPS" secondAttribute="centerX" id="IPU-H4-lbJ"/>
-                            <constraint firstItem="Bny-9O-IZ6" firstAttribute="top" secondItem="MlS-bz-dPS" secondAttribute="top" constant="-4" id="SDo-bc-suh"/>
-                            <constraint firstItem="PIq-Tw-WoS" firstAttribute="top" secondItem="gPE-Gf-UEp" secondAttribute="bottom" constant="31" id="V1w-0F-lhh"/>
-                            <constraint firstItem="gPE-Gf-UEp" firstAttribute="leading" secondItem="PIq-Tw-WoS" secondAttribute="leading" id="Xwd-VO-jPt"/>
-                            <constraint firstItem="MlS-bz-dPS" firstAttribute="trailing" secondItem="gPE-Gf-UEp" secondAttribute="trailing" id="a0D-J1-UOF"/>
-                            <constraint firstItem="Bny-9O-IZ6" firstAttribute="top" secondItem="Dld-lg-Hjw" secondAttribute="top" constant="225" id="a3N-3F-HtS"/>
-                            <constraint firstItem="Bny-9O-IZ6" firstAttribute="leading" secondItem="krS-Sd-Vyi" secondAttribute="leadingMargin" constant="15" id="cgi-jv-gyi"/>
-                            <constraint firstItem="Dld-lg-Hjw" firstAttribute="trailing" secondItem="PIq-Tw-WoS" secondAttribute="trailing" constant="183" id="eWP-as-8yN"/>
-                            <constraint firstItem="Dld-lg-Hjw" firstAttribute="bottom" secondItem="s5a-JK-vtb" secondAttribute="bottom" constant="20" id="iRg-RS-fug"/>
-                            <constraint firstItem="Mhb-Ef-mw7" firstAttribute="centerY" secondItem="gPE-Gf-UEp" secondAttribute="centerY" constant="-4" id="q1W-OL-AhB"/>
-                            <constraint firstItem="jdO-SD-ZgW" firstAttribute="top" secondItem="Dld-lg-Hjw" secondAttribute="top" constant="79" id="rVI-1W-GaT"/>
-                            <constraint firstItem="Bny-9O-IZ6" firstAttribute="leading" secondItem="Mhb-Ef-mw7" secondAttribute="leading" id="wMI-sG-thk"/>
-                            <constraint firstItem="RSa-vb-GQq" firstAttribute="trailing" secondItem="krS-Sd-Vyi" secondAttribute="trailingMargin" id="wv1-b9-CxT"/>
-                            <constraint firstItem="s5a-JK-vtb" firstAttribute="leading" secondItem="Mhb-Ef-mw7" secondAttribute="leading" constant="-15" id="wxU-6B-Ctj"/>
-                            <constraint firstItem="PIq-Tw-WoS" firstAttribute="leading" secondItem="Dld-lg-Hjw" secondAttribute="leading" constant="92" id="xxa-kE-V7F"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rZ6-sZ-Mts"/>
                     <connections>
@@ -624,22 +563,58 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <outlet property="resultLabel" destination="1qA-5Z-veF" id="7BW-FM-mF9"/>
                         <outlet property="weightTexxtfield" destination="gPE-Gf-UEp" id="MKR-K8-TyM"/>
                         <segue destination="ZYk-39-Sbp" kind="show" identifier="toAccountSegue" id="Bqa-xk-3sx"/>
+                        <segue destination="nBP-xl-gbU" kind="show" identifier="toBMI" id="weW-fn-WVZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xuw-TX-uxh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3979.3893129770991" y="-256.33802816901408"/>
         </scene>
+        <!--ListBMI View Controller-->
+        <scene sceneID="jrv-Mj-D0C">
+            <objects>
+                <viewController id="nBP-xl-gbU" customClass="ListBMIViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4A6-85-0Cy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-CD-Bbg">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tB0-Lp-TQI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xCX-CD-Bbg" firstAttribute="leading" secondItem="tB0-Lp-TQI" secondAttribute="leading" id="4cz-fP-VZb"/>
+                            <constraint firstItem="xCX-CD-Bbg" firstAttribute="top" secondItem="tB0-Lp-TQI" secondAttribute="top" id="5KI-3v-2yY"/>
+                            <constraint firstItem="tB0-Lp-TQI" firstAttribute="bottom" secondItem="xCX-CD-Bbg" secondAttribute="bottom" id="C4s-H0-6uO"/>
+                            <constraint firstItem="tB0-Lp-TQI" firstAttribute="trailing" secondItem="xCX-CD-Bbg" secondAttribute="trailing" id="Ehj-ew-YXU"/>
+                            <constraint firstItem="tB0-Lp-TQI" firstAttribute="bottom" secondItem="xCX-CD-Bbg" secondAttribute="bottom" id="aLP-Vs-JEW"/>
+                            <constraint firstItem="xCX-CD-Bbg" firstAttribute="leading" secondItem="tB0-Lp-TQI" secondAttribute="leading" id="fY5-to-02B"/>
+                            <constraint firstItem="tB0-Lp-TQI" firstAttribute="trailing" secondItem="xCX-CD-Bbg" secondAttribute="trailing" id="hYO-WD-7B4"/>
+                            <constraint firstItem="xCX-CD-Bbg" firstAttribute="top" secondItem="tB0-Lp-TQI" secondAttribute="top" id="unD-Yc-brC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NNE-up-TdI"/>
+                    <connections>
+                        <outlet property="tableView" destination="xCX-CD-Bbg" id="SMa-yk-RvP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Zh-cx-a5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5003.8167938931292" y="-315.49295774647891"/>
+        </scene>
         <!--Account View Controller-->
         <scene sceneID="Fk6-jI-sNn">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ZYk-39-Sbp" customClass="AccountViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ejx-vg-1Wv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilK-eg-SN5">
-                                <rect key="frame" x="105" y="539" width="183" height="48"/>
+                                <rect key="frame" x="105" y="544" width="183" height="48"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ÇIKIŞ YAP"/>
                                 <connections>
@@ -648,7 +623,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtk-oo-gBP">
-                                <rect key="frame" x="105" y="400" width="183" height="49"/>
+                                <rect key="frame" x="105" y="405" width="183" height="49"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="ŞİFRE SIFIRLA" cornerStyle="medium">
                                     <backgroundConfiguration key="background">
@@ -661,21 +636,21 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logout" translatesAutoresizingMaskIntoConstraints="NO" id="8FG-RN-dQh">
-                                <rect key="frame" x="46" y="539" width="51" height="48"/>
+                                <rect key="frame" x="46" y="544" width="51" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="51" id="PyA-XS-g7F"/>
                                     <constraint firstAttribute="height" constant="48" id="gR5-W7-M8I"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reset-password" translatesAutoresizingMaskIntoConstraints="NO" id="u9B-T5-tI1">
-                                <rect key="frame" x="46" y="400" width="51" height="42"/>
+                                <rect key="frame" x="46" y="405" width="51" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="s25-Bh-9Dr"/>
                                     <constraint firstAttribute="width" constant="51" id="tmw-U6-yBY"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSn-8B-Vuu">
-                                <rect key="frame" x="105" y="294" width="280" height="27"/>
+                                <rect key="frame" x="105" y="238" width="280" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="KRJ-Vt-rMD"/>
                                 </constraints>
@@ -729,7 +704,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController title="Sign Up" modalPresentationStyle="fullScreen" id="gUm-iR-KcX" customClass="SignUpViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2AE-NT-79s">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e-mail " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Udq-EY-F6a">
@@ -866,7 +841,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bxe-q5-Ord"/>
+        <segue reference="Bqa-xk-3sx"/>
         <segue reference="3j2-LP-Tga"/>
         <segue reference="9D2-o5-Bh7"/>
     </inferredMetricsTieBreakers>
@@ -914,6 +889,9 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
