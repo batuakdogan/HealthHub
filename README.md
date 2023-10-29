@@ -21,10 +21,14 @@ For Questions : batudev21@gmail.com
 
 
 <img width="300" alt="Ekran Resmi 2023-10-11 22 27 24" src="https://github.com/batuakdogan/HealthHub/assets/77547523/02a794c6-8525-4b46-a5e1-db92d7d24c73">
-<img width="300" alt="Ekran Resmi 2023-10-27 23 01 50" src="https://github.com/batuakdogan/HealthHub/assets/77547523/cf761ead-d320-451f-b36f-2437304fcc0c">
+
+
+<img width="300" alt="Ekran Resmi 2023-10-29 14 15 06" src="https://github.com/batuakdogan/HealthHub/assets/77547523/0740cefa-6ac3-4632-bb59-2fbd09a8411b">
 
 
 
+
+<img width="300" alt="Ekran Resmi 2023-10-29 14 15 17" src="https://github.com/batuakdogan/HealthHub/assets/77547523/5fb234c5-01f3-433d-991a-de3ed30dfb28">
 
 
 &nbsp;
