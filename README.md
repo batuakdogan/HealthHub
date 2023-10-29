@@ -19,24 +19,32 @@ For Questions : batudev21@gmail.com
 
 <h2>SOME IMAGES OF THE PROJECT</h2>
 
-<img width="300" alt="Ekran Resmi 2023-10-11 17 02 28" src="https://github.com/batuakdogan/HealthHub/assets/77547523/b3801aa1-9572-4388-bb89-87dae9a38e29">
 
 <img width="300" alt="Ekran Resmi 2023-10-11 22 27 24" src="https://github.com/batuakdogan/HealthHub/assets/77547523/02a794c6-8525-4b46-a5e1-db92d7d24c73">
 
 
+<img width="300" alt="Ekran Resmi 2023-10-29 14 18 11" src="https://github.com/batuakdogan/HealthHub/assets/77547523/303c330b-71a4-416f-bafa-63356d82e1da">
 
 
-
-&nbsp;
-<img width="300" alt="Ekran Resmi 2023-10-13 14 47 59" src="https://github.com/batuakdogan/HealthHub/assets/77547523/3ccf9704-f005-469c-97d8-7e006773281d">
 
 
 
 
 &nbsp;
-<img width="300" alt="Ekran Resmi 2023-10-11 18 41 16" src="https://github.com/batuakdogan/HealthHub/assets/77547523/44a4aec7-f693-4e8f-8ac0-03b8cce8dfae">
+<img width="300" alt="Ekran Resmi 2023-10-27 22 54 09" src="https://github.com/batuakdogan/HealthHub/assets/77547523/3391192b-3a5b-4c8c-9446-47f71db60870">
 
 
+
+
+&nbsp;
+<img width="300" alt="Ekran Resmi 2023-10-29 14 15 06" src="https://github.com/batuakdogan/HealthHub/assets/77547523/0740cefa-6ac3-4632-bb59-2fbd09a8411b">
+
+<img width="300" alt="Ekran Resmi 2023-10-29 14 15 17" src="https://github.com/batuakdogan/HealthHub/assets/77547523/79294a0c-57b8-4c04-990c-608a8f75dfb0">
+
+
+
+
+<img width="300" alt="Ekran Resmi 2023-10-27 22 53 34" src="https://github.com/batuakdogan/HealthHub/assets/77547523/3dd774f2-7e4d-464d-b58d-2d2976a5b4c6">
 
 
 
