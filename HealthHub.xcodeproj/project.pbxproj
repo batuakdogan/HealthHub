@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D11410252AD957C800A970F2 /* GymViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410242AD957C800A970F2 /* GymViewController.swift */; };
 		D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410262AD9583B00A970F2 /* ListViewController.swift */; };
+		D1412A3C2AF015B700C50E3D /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3B2AF015B700C50E3D /* ToDoModel.swift */; };
+		D1412A3E2AF015CA00C50E3D /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */; };
+		D1412A402AF015DB00C50E3D /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */; };
 		D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C0E2AD5B2E10099782C /* AppDelegate.swift */; };
 		D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C102AD5B2E10099782C /* SceneDelegate.swift */; };
 		D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C9C122AD5B2E10099782C /* SignInViewController.swift */; };
@@ -58,6 +61,9 @@
 /* Begin PBXFileReference section */
 		D11410242AD957C800A970F2 /* GymViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymViewController.swift; sourceTree = "<group>"; };
 		D11410262AD9583B00A970F2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D1412A3B2AF015B700C50E3D /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
+		D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		D14C9C0B2AD5B2E10099782C /* HealthHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14C9C0E2AD5B2E10099782C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D14C9C102AD5B2E10099782C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +184,7 @@
 			children = (
 				D19193F42AD6EF6D00D226F9 /* BMIModel.swift */,
 				D18795142AEE684B0048DA07 /* BMISaveModel.swift */,
+				D1412A3B2AF015B700C50E3D /* ToDoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +201,7 @@
 				D11410262AD9583B00A970F2 /* ListViewController.swift */,
 				D18B401B2AEC42AD0089766E /* TimerViewController.swift */,
 				D187951A2AEE6B340048DA07 /* ListBMIViewController.swift */,
+				D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +213,7 @@
 				D18B40192AEC42730089766E /* TimerViewModel.swift */,
 				D18795162AEE686C0048DA07 /* BMISaveViewModel.swift */,
 				D18795182AEE68EF0048DA07 /* FirebaseManager.swift */,
+				D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -350,7 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1412A3E2AF015CA00C50E3D /* ToDoViewModel.swift in Sources */,
 				D18B401A2AEC42730089766E /* TimerViewModel.swift in Sources */,
+				D1412A3C2AF015B700C50E3D /* ToDoModel.swift in Sources */,
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
 				D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */,
 				D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */,
@@ -361,6 +372,7 @@
 				D14C9C112AD5B2E10099782C /* SceneDelegate.swift in Sources */,
 				D187951B2AEE6B340048DA07 /* ListBMIViewController.swift in Sources */,
 				D19193F52AD6EF6D00D226F9 /* BMIModel.swift in Sources */,
+				D1412A402AF015DB00C50E3D /* ToDoViewController.swift in Sources */,
 				D18795152AEE684B0048DA07 /* BMISaveModel.swift in Sources */,
 				D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */,
 				D18B401C2AEC42AD0089766E /* TimerViewController.swift in Sources */,

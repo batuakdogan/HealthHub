@@ -46,6 +46,15 @@ class MainViewController: UIViewController {
     
     
     
+    @IBAction func goExerciseButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toExercise", sender: nil)
+    }
+    
+    
+    
+    
+    
     @IBAction func goTimer(_ sender: Any) {
         performSegue(withIdentifier: "toTimer", sender: nil)
     }

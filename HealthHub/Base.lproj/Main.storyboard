@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CVc-RR-o5F">
-                                <rect key="frame" x="68" y="311" width="295" height="34"/>
+                                <rect key="frame" x="68" y="355" width="295" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="TgK-M4-KVO"/>
                                 </constraints>
@@ -27,7 +27,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80Z-Wg-Orq">
-                                <rect key="frame" x="68" y="416" width="295" height="34"/>
+                                <rect key="frame" x="68" y="460" width="295" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Luh-y4-YxA"/>
                                 </constraints>
@@ -38,7 +38,7 @@
                                 <rect key="frame" x="4" y="510" width="56" height="53"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="protein-shake" translatesAutoresizingMaskIntoConstraints="NO" id="5dr-uu-OvI">
-                                <rect key="frame" x="93" y="97" width="207" height="174"/>
+                                <rect key="frame" x="93" y="141" width="207" height="174"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="174" id="lhi-Fi-D2t"/>
                                 </constraints>
@@ -128,7 +128,7 @@
             <objects>
                 <viewController storyboardIdentifier="mainn" modalPresentationStyle="fullScreen" id="6ym-gH-kpJ" customClass="MainViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UGP-FJ-IXJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise" translatesAutoresizingMaskIntoConstraints="NO" id="Mex-If-Z4i">
@@ -136,7 +136,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtY-zX-rTU">
-                                <rect key="frame" x="110" y="351" width="263" height="51"/>
+                                <rect key="frame" x="106" y="272" width="263" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="Button"/>
@@ -152,7 +152,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X84-o7-cA2">
-                                <rect key="frame" x="110" y="476" width="260" height="54"/>
+                                <rect key="frame" x="106" y="375" width="260" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -168,7 +168,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spe-w0-6j4">
-                                <rect key="frame" x="110" y="593" width="260" height="54"/>
+                                <rect key="frame" x="106" y="477" width="260" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -183,8 +183,25 @@
                                     <action selector="goToGymButton:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="1Fg-jS-gQd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMV-cg-Vyw">
+                                <rect key="frame" x="107" y="587" width="260" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="EGZERSİZLERİM" cornerStyle="medium">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.17791365689999999" green="0.81444543859999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.20455912679999999" green="0.57360276359999995" blue="0.73085132090000005" alpha="0.1764705882" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="goExerciseButton:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="stj-Cz-zBq"/>
+                                    <action selector="goTimer:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="ANf-Cu-Jci"/>
+                                    <action selector="goToGymButton:" destination="6ym-gH-kpJ" eventType="touchUpInside" id="hzE-xO-OZx"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-n7-dfJ">
-                                <rect key="frame" x="110" y="713" width="262" height="51"/>
+                                <rect key="frame" x="107" y="702" width="262" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81575840129999999" green="1" blue="0.73643326669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -201,19 +218,23 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marker" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-W7-CPX">
-                                <rect key="frame" x="16" y="476" width="61" height="49"/>
+                                <rect key="frame" x="16" y="375" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about 1" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-G7-zkv">
-                                <rect key="frame" x="23" y="713" width="68" height="60"/>
+                                <rect key="frame" x="20" y="702" width="68" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stopwatch" translatesAutoresizingMaskIntoConstraints="NO" id="fXa-Mg-2br">
-                                <rect key="frame" x="20" y="602" width="53" height="45"/>
+                                <rect key="frame" x="16" y="486" width="53" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calculator 1" translatesAutoresizingMaskIntoConstraints="NO" id="atu-bE-OLY">
-                                <rect key="frame" x="20" y="351" width="61" height="52"/>
+                                <rect key="frame" x="20" y="272" width="61" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="excercise" translatesAutoresizingMaskIntoConstraints="NO" id="Ps2-T9-QAU">
+                                <rect key="frame" x="16" y="587" width="57" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -224,18 +245,70 @@
                     <connections>
                         <segue destination="NCI-lo-t7W" kind="show" identifier="toIndexSegue" id="Bxe-q5-Ord"/>
                         <segue destination="ApU-06-hm5" kind="show" identifier="toTimer" id="d1z-W4-Yl4"/>
+                        <segue destination="DFo-7H-kG0" kind="show" identifier="toExercise" id="iSr-GU-Qtm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fGd-ie-Qgq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="220.61068702290075" y="-926.05633802816908"/>
+            <point key="canvasLocation" x="-1315" y="-1046"/>
+        </scene>
+        <!--To Do View Controller-->
+        <scene sceneID="BDS-4W-Cyw">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="DFo-7H-kG0" customClass="ToDoViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZTb-YD-ihN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Oav-uW-UbT">
+                                <rect key="frame" x="0.0" y="193" width="393" height="429"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check-list" translatesAutoresizingMaskIntoConstraints="NO" id="es5-UO-8e1">
+                                <rect key="frame" x="117" y="54" width="158" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Egzersiz Ekle" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PiF-9S-ChZ">
+                                <rect key="frame" x="55" y="647" width="338" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="AfL-xi-q5d">
+                                <rect key="frame" x="5" y="645" width="42" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-zo-WQn">
+                                <rect key="frame" x="55" y="724" width="99" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.34509804840000002" green="0.32549020649999999" blue="0.84313726430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="EKLE"/>
+                                <connections>
+                                    <action selector="addButtonTapped:" destination="DFo-7H-kG0" eventType="touchUpInside" id="AsS-rn-gAJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HJP-S7-9UJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tul-cA-niD"/>
+                    <connections>
+                        <outlet property="tableView" destination="Oav-uW-UbT" id="Hl3-jk-WZt"/>
+                        <outlet property="textField" destination="PiF-9S-ChZ" id="zu6-AI-VAw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J5s-pd-faw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222.13740458015266" y="-1742.2535211267607"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="rCe-25-Bho">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ApU-06-hm5" customClass="TimerViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kVK-3k-Xn9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8s-ni-zLO">
@@ -431,7 +504,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="djZ-hu-b9m" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2fD-h3-UFI">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lYH-bU-YZv">
@@ -476,7 +549,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="wre-yQ-RL6" customClass="BMIViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="krS-Sd-Vyi">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Boy metre (örn: 1.74)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-bz-dPS">
@@ -575,11 +648,11 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController id="nBP-xl-gbU" customClass="ListBMIViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4A6-85-0Cy">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-CD-Bbg">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="393" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -650,7 +723,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSn-8B-Vuu">
-                                <rect key="frame" x="105" y="238" width="280" height="27"/>
+                                <rect key="frame" x="105" y="282" width="280" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="KRJ-Vt-rMD"/>
                                 </constraints>
@@ -731,7 +804,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                                 </connections>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-user" translatesAutoresizingMaskIntoConstraints="NO" id="8Hg-cD-yup">
-                                <rect key="frame" x="80" y="36" width="238" height="299"/>
+                                <rect key="frame" x="80" y="80" width="238" height="255"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqo-ga-ERe">
                                 <rect key="frame" x="91" y="555" width="217" height="62"/>
@@ -841,17 +914,20 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bqa-xk-3sx"/>
-        <segue reference="3j2-LP-Tga"/>
+        <segue reference="0f6-tc-3CQ"/>
+        <segue reference="kyb-Cc-frZ"/>
         <segue reference="9D2-o5-Bh7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="about 1" width="512" height="512"/>
+        <image name="add" width="512" height="512"/>
         <image name="add-user" width="512" height="512"/>
         <image name="calculator" width="512" height="512"/>
         <image name="calculator 1" width="512" height="512"/>
+        <image name="check-list" width="512" height="512"/>
         <image name="clock" width="512" height="512"/>
         <image name="email" width="512" height="512"/>
+        <image name="excercise" width="512" height="512"/>
         <image name="exercise" width="512" height="512"/>
         <image name="height" width="512" height="512"/>
         <image name="home" width="512" height="512"/>
