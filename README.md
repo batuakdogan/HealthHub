@@ -31,8 +31,8 @@ For Questions : batudev21@gmail.com
 
 
 &nbsp;
-<img width="300" alt="Ekran Resmi 2023-10-30 20 23 03" src="https://github.com/batuakdogan/HealthHub/assets/77547523/5d6a353a-c382-4aa8-9727-e84dda273bf8">
 
+<img width="300" alt="Ekran Resmi 2023-10-31 20 34 11" src="https://github.com/batuakdogan/HealthHub/assets/77547523/9d74d60d-b3b9-4b1e-9ea3-085e1836e331">
 
 
 
@@ -55,6 +55,7 @@ For Questions : batudev21@gmail.com
 <img width="300" alt="Ekran Resmi 2023-10-13 14 36 48" src="https://github.com/batuakdogan/HealthHub/assets/77547523/fcbf4fd2-3ecb-469f-850d-340b2813e507">
 
 
+<img width="300" alt="Ekran Resmi 2023-10-31 20 33 25" src="https://github.com/batuakdogan/HealthHub/assets/77547523/0be341ac-853f-48e8-87a9-7782f68e5748">
 
 
 
