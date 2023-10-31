@@ -69,10 +69,10 @@ class CalorieCalculatorViewController:
                         activityLevel = .sedentary
                     }
                     
-                    // ViewModel'i güncelleyin
+                    // reload viewmodel
                     viewModel?.personInfo = PersonInfo(age: age, gender: gender, weight: weight, height: height, activityLevel: activityLevel)
                     
-                    // Günlük kaloriyi hesaplayın
+                    // calculate
                     let dailyCalories = viewModel?.calculateDailyCalories() ?? 0.0
                     resultLabel.text = "Günlük Kalori İhtiyacınız: \(Int(dailyCalories)) kalori"
                 }
