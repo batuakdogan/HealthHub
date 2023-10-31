@@ -1,15 +1,15 @@
 <h1>THIS IS HEALTH HUB</h1>
 <p1>
-Health hub is a sports application. You can calculate your height and weight indexes and save your gyms.This project is coded according to MVVM. The application will continue to be updated.
+Health hub is a sports application. You can calculate your height and weight indexes, save your gyms, add daily exercise program. This project is coded according to MVVM. The application will continue to be updated.
 For Questions : batudev21@gmail.com
   
 </p1>
 
 <h2>BUILTH WITH</h2>
 <p3>
+<img width="50" alt="Ekran Resmi 2023-10-13 15 19 52" src="https://github.com/batuakdogan/HealthHub/assets/77547523/1bcea417-cba0-4132-ab0e-fec7f3f8db39">
 
 <img width="50" alt="Ekran Resmi 2023-10-13 15 20 52" src="https://github.com/batuakdogan/HealthHub/assets/77547523/cc8598de-0886-42f1-8891-ae65d66be26d">
-<img width="50" alt="Ekran Resmi 2023-10-13 15 19 52" src="https://github.com/batuakdogan/HealthHub/assets/77547523/1bcea417-cba0-4132-ab0e-fec7f3f8db39">
 
   
 
