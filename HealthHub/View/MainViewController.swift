@@ -46,12 +46,22 @@ class MainViewController: UIViewController {
     
     
     
+    @IBAction func goCalories(_ sender: Any) {
+        performSegue(withIdentifier: "toCalories", sender: nil)
+    }
+    
+    
+    
     @IBAction func goExerciseButton(_ sender: Any) {
         
         performSegue(withIdentifier: "toExercise", sender: nil)
     }
     
     
+    
+    @IBAction func goFoodButton(_ sender: Any) {
+        performSegue(withIdentifier: "toFood", sender: nil)
+    }
     
     
     

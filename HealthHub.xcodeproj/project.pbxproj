@@ -38,6 +38,9 @@
 		D19193F72AD6EFA100D226F9 /* BMIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */; };
 		D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19193F82AD6F31D00D226F9 /* BMIViewController.swift */; };
 		D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD07A32AD6CBFC0026746A /* MainViewController.swift */; };
+		D1DD785A2AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD78592AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift */; };
+		D1DD785E2AF168B600DA4E08 /* CalorieCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD785D2AF168B600DA4E08 /* CalorieCalculatorViewController.swift */; };
+		D1DD78602AF1697A00DA4E08 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD785F2AF1697A00DA4E08 /* PersonInfo.swift */; };
 		D1F4A5112AD727F700841260 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4A5102AD727F700841260 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +94,9 @@
 		D19193F62AD6EFA100D226F9 /* BMIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewModel.swift; sourceTree = "<group>"; };
 		D19193F82AD6F31D00D226F9 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		D1AD07A32AD6CBFC0026746A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D1DD78592AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCalculatorViewModel.swift; sourceTree = "<group>"; };
+		D1DD785D2AF168B600DA4E08 /* CalorieCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCalculatorViewController.swift; sourceTree = "<group>"; };
+		D1DD785F2AF1697A00DA4E08 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
 		D1F4A5102AD727F700841260 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +191,7 @@
 				D19193F42AD6EF6D00D226F9 /* BMIModel.swift */,
 				D18795142AEE684B0048DA07 /* BMISaveModel.swift */,
 				D1412A3B2AF015B700C50E3D /* ToDoModel.swift */,
+				D1DD785F2AF1697A00DA4E08 /* PersonInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 				D18B401B2AEC42AD0089766E /* TimerViewController.swift */,
 				D187951A2AEE6B340048DA07 /* ListBMIViewController.swift */,
 				D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */,
+				D1DD785D2AF168B600DA4E08 /* CalorieCalculatorViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 				D18795162AEE686C0048DA07 /* BMISaveViewModel.swift */,
 				D18795182AEE68EF0048DA07 /* FirebaseManager.swift */,
 				D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */,
+				D1DD78592AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -361,11 +370,13 @@
 			files = (
 				D1412A3E2AF015CA00C50E3D /* ToDoViewModel.swift in Sources */,
 				D18B401A2AEC42730089766E /* TimerViewModel.swift in Sources */,
+				D1DD785A2AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift in Sources */,
 				D1412A3C2AF015B700C50E3D /* ToDoModel.swift in Sources */,
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
 				D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */,
 				D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */,
 				D18795172AEE686C0048DA07 /* BMISaveViewModel.swift in Sources */,
+				D1DD785E2AF168B600DA4E08 /* CalorieCalculatorViewController.swift in Sources */,
 				D19193F72AD6EFA100D226F9 /* BMIViewModel.swift in Sources */,
 				D14C9C0F2AD5B2E10099782C /* AppDelegate.swift in Sources */,
 				D11410252AD957C800A970F2 /* GymViewController.swift in Sources */,
@@ -379,6 +390,7 @@
 				D1AD07A42AD6CBFC0026746A /* MainViewController.swift in Sources */,
 				D14C9C192AD5B2E10099782C /* HealthHub.xcdatamodeld in Sources */,
 				D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */,
+				D1DD78602AF1697A00DA4E08 /* PersonInfo.swift in Sources */,
 				D18795192AEE68EF0048DA07 /* FirebaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
