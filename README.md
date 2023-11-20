@@ -1,6 +1,6 @@
 <h1>THIS IS HEALTH HUB</h1>
 <p1>
-Health hub is a sports application. You can calculate your height and weight indexes, save your gyms, add daily exercise program. This project is coded according to MVVM. The application will continue to be updated.
+Health hub is a sports application. You can calculate your height and weight indexes and save the data you calculate, save your gyms with map feature, add daily exercise program, calculate daily calories need. This project is coded according to MVVM. The application will continue to be updated.
 For Questions : batudev21@gmail.com
   
 </p1>
