@@ -27,6 +27,9 @@
 		D14C9C482AD5B3FC0099782C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C472AD5B3FC0099782C /* FirebaseAuth */; };
 		D14C9C4A2AD5B3FC0099782C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C492AD5B3FC0099782C /* FirebaseFirestore */; };
 		D14C9C4C2AD5B3FC0099782C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D14C9C4B2AD5B3FC0099782C /* FirebaseStorage */; };
+		D16112192B0BDA7900B1D91A /* BMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16112182B0BDA7900B1D91A /* BMITests.swift */; };
+		D161121B2B0BDB1B00B1D91A /* ToDoModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161121A2B0BDB1B00B1D91A /* ToDoModelTests.swift */; };
+		D161121D2B0BDBD500B1D91A /* PersonInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161121C2B0BDBD500B1D91A /* PersonInfoTests.swift */; };
 		D186F5642AD5C90F00939E13 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D186F5632AD5C90F00939E13 /* SignUpViewController.swift */; };
 		D18795152AEE684B0048DA07 /* BMISaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18795142AEE684B0048DA07 /* BMISaveModel.swift */; };
 		D18795172AEE686C0048DA07 /* BMISaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18795162AEE686C0048DA07 /* BMISaveViewModel.swift */; };
@@ -83,6 +86,9 @@
 		D14C9C332AD5B2E20099782C /* HealthHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHubUITests.swift; sourceTree = "<group>"; };
 		D14C9C352AD5B2E20099782C /* HealthHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D14C9C422AD5B34A0099782C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D16112182B0BDA7900B1D91A /* BMITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMITests.swift; sourceTree = "<group>"; };
+		D161121A2B0BDB1B00B1D91A /* ToDoModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModelTests.swift; sourceTree = "<group>"; };
+		D161121C2B0BDBD500B1D91A /* PersonInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoTests.swift; sourceTree = "<group>"; };
 		D186F5632AD5C90F00939E13 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D18795142AEE684B0048DA07 /* BMISaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMISaveModel.swift; sourceTree = "<group>"; };
 		D18795162AEE686C0048DA07 /* BMISaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMISaveViewModel.swift; sourceTree = "<group>"; };
@@ -172,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				D14C9C292AD5B2E20099782C /* HealthHubTests.swift */,
+				D16112182B0BDA7900B1D91A /* BMITests.swift */,
+				D161121A2B0BDB1B00B1D91A /* ToDoModelTests.swift */,
+				D161121C2B0BDBD500B1D91A /* PersonInfoTests.swift */,
 			);
 			path = HealthHubTests;
 			sourceTree = "<group>";
@@ -399,6 +408,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16112192B0BDA7900B1D91A /* BMITests.swift in Sources */,
+				D161121B2B0BDB1B00B1D91A /* ToDoModelTests.swift in Sources */,
+				D161121D2B0BDBD500B1D91A /* PersonInfoTests.swift in Sources */,
 				D14C9C2A2AD5B2E20099782C /* HealthHubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

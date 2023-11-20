@@ -13,6 +13,9 @@ struct BMI {
     var weight: Double
     var index: Double {
         return weight / (height * height)
+        
+        
+        
     }
     
     

@@ -472,15 +472,15 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="HP2-vP-ovj" customClass="ListViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZZm-Qx-4Os">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="owm-pu-jhr">
-                                <rect key="frame" x="16" y="103" width="361" height="648"/>
+                                <rect key="frame" x="16" y="56" width="361" height="719"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiS-Ze-up9">
-                                <rect key="frame" x="167" y="755" width="55" height="49"/>
+                                <rect key="frame" x="167" y="779" width="55" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="HcQ-ms-veB"/>
                                 </constraints>
@@ -525,7 +525,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="cOJ-Cd-pEO" customClass="GymViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uEm-98-73o">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C5h-B6-rPb">
@@ -630,7 +630,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="wre-yQ-RL6" customClass="BMIViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="krS-Sd-Vyi">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Boy metre (örn: 1.74)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-bz-dPS">
@@ -729,7 +729,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController id="nBP-xl-gbU" customClass="ListBMIViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4A6-85-0Cy">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-CD-Bbg">
@@ -764,7 +764,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ZYk-39-Sbp" customClass="AccountViewController" customModule="HealthHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ejx-vg-1Wv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilK-eg-SN5">
@@ -919,6 +919,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
         <!--Navigation Controller-->
         <scene sceneID="0ZP-uY-wgD">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8td-vC-idb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lLw-xx-RMw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a7L-ys-FvE">
@@ -930,18 +931,18 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Omi-f8-Tgw"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8td-vC-idb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="129.00763358778624" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hrv-9r-gqB">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Md7-Cr-XjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="8mQ-jt-niS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="L4o-xR-FDz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="T6C-oE-Xji">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -949,18 +950,18 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="HP2-vP-ovj" kind="relationship" relationship="rootViewController" id="dJw-w9-iWp"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Md7-Cr-XjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2295" y="-1488"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z6y-FL-KUJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq9-et-3vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="NCI-lo-t7W" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="T5y-0i-0yn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ch1-20-iRZ">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -968,13 +969,12 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="wre-yQ-RL6" kind="relationship" relationship="rootViewController" id="YIh-sB-krj"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq9-et-3vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2602" y="-203"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3j2-LP-Tga"/>
+        <segue reference="kyb-Cc-frZ"/>
         <segue reference="Omi-f8-Tgw"/>
     </inferredMetricsTieBreakers>
     <resources>
