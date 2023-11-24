@@ -20,7 +20,7 @@ class TimerViewController: UIViewController {
         super.viewDidLoad()
         
         viewModel.timerTick = { [weak self] in
-                    // Zaman etiketini güncelleyin
+                    // Update time
                     self?.updateTimeLabel()
                 }
 

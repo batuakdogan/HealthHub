@@ -9,6 +9,8 @@ import Foundation
 import Firebase
 import FirebaseFirestore
 
+
+//firebase save model
 class BMISaveViewModel {
     private let firebaseManager = FirebaseManager()
     

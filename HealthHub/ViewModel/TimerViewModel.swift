@@ -7,7 +7,7 @@
 
 import Foundation
 class TimerViewModel {
-    var currentTime: TimeInterval = 0 // Zamanlayıcı başlangıç süresi
+    var currentTime: TimeInterval = 0 // start timer
     var timer: Timer?
 
     func startTimer() {

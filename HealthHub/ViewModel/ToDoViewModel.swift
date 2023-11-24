@@ -9,6 +9,9 @@ import Foundation
 import Firebase
 import FirebaseFirestore
 
+
+
+//to do models, firebase save
 class ToDoViewModel {
     private var toDoItems: [ToDoItem] = []
         private let dbToDo: Firestore
