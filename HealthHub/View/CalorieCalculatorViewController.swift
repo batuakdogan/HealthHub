@@ -12,6 +12,10 @@ class CalorieCalculatorViewController:
     
     
     
+    @IBOutlet weak var calorieGoalTextField: UITextField!
+    
+    
+    
     @IBOutlet weak var ageTextField: UITextField!
     
     
@@ -25,6 +29,7 @@ class CalorieCalculatorViewController:
     
     @IBOutlet weak var resultLabel: UILabel!
     
+    var exerciseViewModel = ExerciseViewModel()
     
     @IBOutlet weak var activityLevelSegmentedControl: UISegmentedControl!
     
@@ -35,50 +40,79 @@ class CalorieCalculatorViewController:
     @IBOutlet weak var calculateButton: UIButton!
     
     
+    
+    
+    
     var viewModel: CalorieCalculatorViewModel?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = CalorieCalculatorViewModel(personInfo: PersonInfo(age: 0, gender: .male, weight: 0.0, height: 0.0, activityLevel: .sedentary))
-
+        
     }
     
-
     
     @IBAction func calculateButtonTapped(_ sender: Any) {
         guard let ageText = ageTextField.text, let weightText = weightTextField.text, let heightText = heightTextField.text else {
-                    return
-                }
+            return
+        }
         
         if let age = Int(ageText), let weight = Double(weightText), let height = Double(heightText) {
-                    let gender: Gender = genderSegmentedControl.selectedSegmentIndex == 0 ? .male : .female
-                    let activityLevel: ActivityLevel
-                    
-                    switch activityLevelSegmentedControl.selectedSegmentIndex {
-                    case 0:
-                        activityLevel = .sedentary
-                    case 1:
-                        activityLevel = .lightlyActive
-                    case 2:
-                        activityLevel = .moderatelyActive
-                    case 3:
-                        activityLevel = .veryActive
-                    case 4:
-                        activityLevel = .superActive
-                    default:
-                        activityLevel = .sedentary
-                    }
-                    
-                    // reload viewmodel
-                    viewModel?.personInfo = PersonInfo(age: age, gender: gender, weight: weight, height: height, activityLevel: activityLevel)
-                    
-                    // calculate
-                    let dailyCalories = viewModel?.calculateDailyCalories() ?? 0.0
-                    resultLabel.text = "Günlük Kalori İhtiyacınız: \(Int(dailyCalories)) kalori"
-                }
+            let gender: Gender = genderSegmentedControl.selectedSegmentIndex == 0 ? .male : .female
+            let activityLevel: ActivityLevel
+            
+            switch activityLevelSegmentedControl.selectedSegmentIndex {
+            case 0:
+                activityLevel = .sedentary
+            case 1:
+                activityLevel = .lightlyActive
+            case 2:
+                activityLevel = .moderatelyActive
+            case 3:
+                activityLevel = .veryActive
+            case 4:
+                activityLevel = .superActive
+            default:
+                activityLevel = .sedentary
+            }
+            
+            // reload viewmodel
+            viewModel?.personInfo = PersonInfo(age: age, gender: gender, weight: weight, height: height, activityLevel: activityLevel)
+            
+            // calculate
+            let dailyCalories = viewModel?.calculateDailyCalories() ?? 0.0
+            resultLabel.text = "Günlük Kalori İhtiyacınız: \(Int(dailyCalories)) kalori"
+        }
     }
     
     
     
+    
+    
+    
+    @IBAction func generateWorkoutButtonPressed(_ sender: UIButton) {
+        
+        
+        guard let calorieGoalString = calorieGoalTextField.text,
+              let calorieGoal = Int(calorieGoalString) else {
+            // Hata durumu
+            return
+            
+        }
+        
+        let workout = exerciseViewModel.generateRandomWorkout(calorieGoal: calorieGoal)
+                displayWorkout(workout)
+        
+        
+    }
+    
+    func displayWorkout(_ workout: [Exercise]) {
+            var workoutText = "Workout:\n"
 
+            for exercise in workout {
+                workoutText += "\(exercise.name) - \(exercise.caloriesBurned) calories\n"
+            }
+
+            resultLabel.text = workoutText
+        }
 }

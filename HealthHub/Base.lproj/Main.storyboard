@@ -264,14 +264,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kalori:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUI-4w-Yhf">
-                                <rect key="frame" x="16" y="760" width="319" height="31"/>
+                                <rect key="frame" x="16" y="681" width="319" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="6kv-5L-ZPH">
-                                <rect key="frame" x="0.0" y="528" width="107" height="32"/>
+                                <rect key="frame" x="0.0" y="471" width="107" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Erkek"/>
@@ -279,7 +279,7 @@
                                 </segments>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yDn-hb-L8U">
-                                <rect key="frame" x="0.0" y="578" width="393" height="32"/>
+                                <rect key="frame" x="0.0" y="521" width="393" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Sedanter"/>
@@ -306,12 +306,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEx-oy-qCG">
-                                <rect key="frame" x="8" y="647" width="377" height="35"/>
+                                <rect key="frame" x="8" y="590" width="377" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="HESAPLA"/>
                                 <connections>
                                     <action selector="calculateButtonTapped:" destination="PAD-tb-aVt" eventType="touchUpInside" id="uIc-Yp-fNH"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hedef" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-Bh-oNP">
+                                <rect key="frame" x="202" y="765" width="117" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lr4-cz-Glx">
+                                <rect key="frame" x="16" y="765" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="generateWorkoutButtonPressed:" destination="PAD-tb-aVt" eventType="touchUpInside" id="RZ8-tb-Mcn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -323,6 +338,7 @@
                         <outlet property="activityLevelSegmentedControl" destination="yDn-hb-L8U" id="yqg-i6-WGt"/>
                         <outlet property="ageTextField" destination="MNF-iI-lAQ" id="DLe-9z-U4t"/>
                         <outlet property="calculateButton" destination="lEx-oy-qCG" id="Kxn-Rl-Vgl"/>
+                        <outlet property="calorieGoalTextField" destination="GbL-Bh-oNP" id="Yqc-g4-Qsu"/>
                         <outlet property="genderSegmentedControl" destination="6kv-5L-ZPH" id="oOF-em-leF"/>
                         <outlet property="heightTextField" destination="dmZ-L2-aWp" id="4Ud-7D-5LV"/>
                         <outlet property="resultLabel" destination="SUI-4w-Yhf" id="fre-fI-A1d"/>
@@ -529,21 +545,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C5h-B6-rPb">
-                                <rect key="frame" x="0.0" y="251" width="393" height="493"/>
+                                <rect key="frame" x="0.0" y="204" width="393" height="564"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="isim:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7fg-44-gwK">
-                                <rect key="frame" x="16" y="124" width="361" height="34"/>
+                                <rect key="frame" x="16" y="77" width="361" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="düşünceler:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xYz-iN-RAF">
-                                <rect key="frame" x="16" y="192" width="361" height="34"/>
+                                <rect key="frame" x="16" y="145" width="361" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZZ-4M-1wU">
-                                <rect key="frame" x="126" y="764" width="141" height="34"/>
+                                <rect key="frame" x="126" y="788" width="141" height="34"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="KAYDET"/>
                                 <connections>
@@ -733,7 +749,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-CD-Bbg">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="56" width="393" height="786"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -919,7 +935,6 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
         <!--Navigation Controller-->
         <scene sceneID="0ZP-uY-wgD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8td-vC-idb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lLw-xx-RMw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a7L-ys-FvE">
@@ -931,13 +946,13 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Omi-f8-Tgw"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8td-vC-idb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="129.00763358778624" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hrv-9r-gqB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Md7-Cr-XjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="8mQ-jt-niS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="L4o-xR-FDz"/>
@@ -950,13 +965,13 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="HP2-vP-ovj" kind="relationship" relationship="rootViewController" id="dJw-w9-iWp"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Md7-Cr-XjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2295" y="-1488"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z6y-FL-KUJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq9-et-3vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="NCI-lo-t7W" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="T5y-0i-0yn"/>
@@ -969,6 +984,7 @@ Ancak bunda bir problem var: Daha yüksek bir BMI, daha az sağlıklı olduğunu
                         <segue destination="wre-yQ-RL6" kind="relationship" relationship="rootViewController" id="YIh-sB-krj"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq9-et-3vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2602" y="-203"/>
         </scene>

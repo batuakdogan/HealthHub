@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D11410252AD957C800A970F2 /* GymViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410242AD957C800A970F2 /* GymViewController.swift */; };
 		D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11410262AD9583B00A970F2 /* ListViewController.swift */; };
+		D11B2EC92B21E9E80058060B /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11B2EC82B21E9E80058060B /* ExerciseModel.swift */; };
+		D11B2ECB2B21EA090058060B /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11B2ECA2B21EA090058060B /* ExerciseViewModel.swift */; };
 		D1412A3C2AF015B700C50E3D /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3B2AF015B700C50E3D /* ToDoModel.swift */; };
 		D1412A3E2AF015CA00C50E3D /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */; };
 		D1412A402AF015DB00C50E3D /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */; };
@@ -67,6 +69,8 @@
 /* Begin PBXFileReference section */
 		D11410242AD957C800A970F2 /* GymViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymViewController.swift; sourceTree = "<group>"; };
 		D11410262AD9583B00A970F2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D11B2EC82B21E9E80058060B /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		D11B2ECA2B21EA090058060B /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
 		D1412A3B2AF015B700C50E3D /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 		D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
 		D1412A3F2AF015DB00C50E3D /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 				D18795142AEE684B0048DA07 /* BMISaveModel.swift */,
 				D1412A3B2AF015B700C50E3D /* ToDoModel.swift */,
 				D1DD785F2AF1697A00DA4E08 /* PersonInfo.swift */,
+				D11B2EC82B21E9E80058060B /* ExerciseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				D18795182AEE68EF0048DA07 /* FirebaseManager.swift */,
 				D1412A3D2AF015CA00C50E3D /* ToDoViewModel.swift */,
 				D1DD78592AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift */,
+				D11B2ECA2B21EA090058060B /* ExerciseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -381,7 +387,9 @@
 				D18B401A2AEC42730089766E /* TimerViewModel.swift in Sources */,
 				D1DD785A2AF1688D00DA4E08 /* CalorieCalculatorViewModel.swift in Sources */,
 				D1412A3C2AF015B700C50E3D /* ToDoModel.swift in Sources */,
+				D11B2EC92B21E9E80058060B /* ExerciseModel.swift in Sources */,
 				D14C9C132AD5B2E10099782C /* SignInViewController.swift in Sources */,
+				D11B2ECB2B21EA090058060B /* ExerciseViewModel.swift in Sources */,
 				D19193F92AD6F31D00D226F9 /* BMIViewController.swift in Sources */,
 				D11410272AD9583B00A970F2 /* ListViewController.swift in Sources */,
 				D18795172AEE686C0048DA07 /* BMISaveViewModel.swift in Sources */,
